@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QSOFT</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+            <div class="header__left">
+            <a class="header__logo" href="https://qsoft.ru/">
+              <img src="img/логотип.svg" alt="Логотип компании QSOFT">
+            </a>
+            <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="header__form">
+                <input type="search" name="" placeholder="Найти..." class="header__input" />
+                <input type="submit" name="" value="" class="header__submit" />
+            </form>
+            
+            </div>
+            <div class="header__right">
+                
+                <a class="header__profile" href=""><span class="header__user">Константин</span><img class="header__user-foto" src="img/Ellipse-18.png" alt="Константин"><img class="header__user-foto-2" src="img/mob.svg" alt="Константин"></a>
+            </div>
+            </div>
+            <div class="header__container-2">
+                <div class="header__container-top">
+                    <a class="header__logo-2" href="https://qsoft.ru/"><img src="img/логотип.svg" alt="Логотип компании QSOFT"></a>
+                    <a class="header__profile-2" href=""><img src="/img/mob.svg" alt="Константин"></a>
+                </div>
+                <div class="header__container-bottom">
+                    <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="header__form-2">
+                        <input type="search" name="" placeholder="Найти..." class="header__input-2" />
+                        <input type="submit" name="" value="" class="header__submit-2" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main__container">
+            <h1 class="main__heading">Наши партнёры</h1>
+              <div class="main__partner">
+                <ul class="main__content">
+                  <li class="main__content-item"><a href=""><img class="main__content-log" src="img/Henkel.svg" alt="Логотип Henkel"><img class="main__content-log-2" src="img/he.svg" alt="Логотип Henkel"></a></li>
+                  <li class="main__content-item"><a href=""><img class="main__content-log" src="img/jd.svg" alt="Логотип John Deere"><img class="main__content-log-2" src="img/j.svg" alt="Логотип Henkel"></a></li>
+                  <li class="main__content-item"><a href=""><img class="main__content-log" src="img/McDonald.svg" alt="Логотип McDonald's"><img class="main__content-log-2" src="img/m.svg" alt="Логотип Henkel"></a></li>
+                  <li class="main__content-item"><a href=""><img class="main__content-log" src="img/Ikea.svg" alt="Логотип Ikea"><img class="main__content-log-2" src="img/i.svg" alt="Логотип Henkel"></a></li>
+                  <li class="main__content-item"><a href=""><img class="main__content-log" src="img/rbk.svg" alt="Логотип Reebok"><img class="main__content-log-2" src="img/r.svg" alt="Логотип Henkel"></a></li>
+                  <li class="main__content-item"><a href=""><img class="main__content-log" src="img/nike.svg" alt="Логотип Nike"><img class="main__content-log-2" src="img/n.svg" alt="Логотип Henkel"></a></li>
+                  <li class="main__content-item"><a href=""><img class="main__content-log" src="img/cat.svg" alt="Логотип Caterpillar"><img class="main__content-log-2" src="img/c.svg" alt="Логотип Henkel"></a></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
